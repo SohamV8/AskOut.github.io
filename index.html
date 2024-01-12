@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AskOut</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div class="d-flex flex-column justify-content-center w-100 h-100">
+<div class="content" id="content">
+    <h1>can we go out on a date ?</h1>
+
+    <img alt="gif" class="gif" src="sweet-zahraa-cute-zahraa.gif">
+    
+    <div class="buton-place">
+        
+    <a href="2ndpage.html"><button id="btn2" >YES</button></a>
+    <div class="2ndbutton">
+    <button id="btn1" onmouseover=Random()>NO</button>
+  </div>
+</div>
+</div>
+
+</div>
+
+
+<script>
+function Random() {
+  var button = document.getElementById("btn1");
+  var RandomX = Math.random() * 90 + "%";
+  var RandomY = Math.random() * 92 + "%";
+  button.style.left = RandomX;
+  button.style.top = RandomY;
+}
+</script>
+
+
+
+
+</body>
+</html>
